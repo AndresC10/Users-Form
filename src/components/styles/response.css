@@ -1,0 +1,41 @@
+.alert {
+    width: 100%;
+    max-width: 356px;
+    background-color: rgb(240, 240, 240);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.4em 0.4em 0.4em 0 #0004;
+    padding-bottom: 44px;
+}
+
+.response__span {
+    text-align: end;
+    font-size: 24px;
+    padding-top: 0.5em;
+    padding-right: 0.8em;
+}
+
+.alert__p {
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.alert__span {
+    padding-left: 12px;
+    padding-right: 18px;
+    font-size: 24px;
+    color: green
+}
+
+
+.edited,
+.created,
+.deleted,
+.error {
+    transform: translateX(0);
+}
